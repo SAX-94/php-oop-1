@@ -39,7 +39,7 @@ $movies = [
     <?php ?>
     <div class="container">
         <?php foreach ($movies as $movie) : ?>
-            <div class="movie my-4">
+            <div class="movie my-5">
                 <h1><?php echo $movie->getTitle() ?></h1>
                 <p>
                     <b>Genres</b>: <?php foreach ($movie->getGenres() as $genre) echo " $genre," ?><br>
