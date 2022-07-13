@@ -25,8 +25,8 @@ class Movie
         $this->rating = $_rating;
     }
 
-/* ----- GETTER - SETTER -----*/
 
+    /* ----- GETTER - SETTER -----*/
 
 
     /**
