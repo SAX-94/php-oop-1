@@ -25,7 +25,7 @@ class Movie
         $this->rating = $_rating;
     }
 
-/* ----- SETTER -----*/
+/* ----- GETTER -----*/
 
     public function getTitle()
     {
